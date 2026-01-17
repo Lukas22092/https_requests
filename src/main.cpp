@@ -1,18 +1,3 @@
-//
-// Copyright (c) 2016-2019 Vinnie Falco (vinnie dot falco at gmail dot com)
-//
-// Distributed under the Boost Software License, Version 1.0. (See accompanying
-// file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-//
-// Official repository: https://github.com/boostorg/beast
-//
-
-//------------------------------------------------------------------------------
-//
-// Example: HTTP SSL client, synchronous
-//
-//------------------------------------------------------------------------------
-
 
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
@@ -127,3 +112,6 @@ int main(int argc, char** argv)
     }
     return EXIT_SUCCESS;
 }
+//example for running:
+//doing ./socket www.youtube.com 443 / 
+//sends a https request to youtube using your ssl key.   

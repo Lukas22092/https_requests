@@ -10,6 +10,7 @@ find_package(OpenSSL REQUIRED)
 
 add_executable(socket
     src/main.cpp
+    src/foo.cpp
 )
 
 target_include_directories(socket PRIVATE include)
